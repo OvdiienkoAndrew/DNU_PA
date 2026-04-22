@@ -6,13 +6,9 @@ int main()
 
     std::cout << "A = ";
     std::cin >> A;
-    std::cin.clear();
-    std::cin.ignore();
 
     std::cout << "B = ";
     std::cin >> B;
-    std::cin.clear();
-    std::cin.ignore();
 
     if (A >= B)
         C = A;
